@@ -136,7 +136,8 @@ body{
 	display: flex;
 	align-items: center;
     justify-content: center;
-    padding: 0;
+	padding: 0;
+	padding-bottom: 4em;
     flex-wrap: wrap;
 }
 .imagen__envios{
@@ -237,5 +238,13 @@ body{
 	.garantia__forma-pago{
 		padding: 1em 1em;
 		width: 150px;
+	}
+
+	.informacion__envios{
+		flex-basis: 90%;
+	}
+
+	.imagen__envios{
+		flex-basis: 90%;
 	}
 }
