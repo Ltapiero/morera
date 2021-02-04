@@ -43,8 +43,8 @@ body{
 }
 
 .hero{
-	padding-bottom: 100px;
-	background-image: var(--background), url('img/Banner.jpg');
+
+	background: rgb(255, 255, 255); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -56,27 +56,22 @@ body{
 
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .hero__img{
-	flex-basis: 50%;
+	
 }
 
 .hero__img img{
-	width: 80%;
-}
-.hero__wave{
-
-	position: absolute;
-	bottom: -1px;
-	left: 0;
-	width:100%;
-	height:100%;
+	width: 300px;
 }
 
 .introduccion{
 	text-align: center;
 	font-size: 13px;
+	padding-bottom: 3em;
+	padding-top: 1em;
 
 }
 
@@ -213,9 +208,10 @@ body{
 	padding: 2.5em 2em;
 	font-weight: 700;
 	font-size: 1.1em;
+	width: 200px;
 }
 .garantia__forma-pago img{
-	width: 6em;
+	width: 4em;
 }
 /* footer*/
 
@@ -228,5 +224,18 @@ body{
 	text-align: center;
 	color: #FFF;
 	font-size: 20px;
+}
 
+@media screen and (max-width:768px){
+	.hero__img img{
+		width: 220px;
+	}
+
+	.garantia__forma-pago img{
+		width: 3em;
+	}
+	.garantia__forma-pago{
+		padding: 1em 1em;
+		width: 150px;
+	}
 }
