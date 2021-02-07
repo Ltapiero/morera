@@ -315,5 +315,6 @@ body{
 .fb-customerchat{
 	animation: desplazamiento;
 	animation-timing-function: ease-out;
+	opacity: 0;
 }
 
