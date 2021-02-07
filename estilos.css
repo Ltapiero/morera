@@ -15,8 +15,9 @@ body{
 	color: var(--color-tercero);
 	font-size: 30px;
 	text-align: center;
-	border: var(--color-primary) 3px solid;
+	border-bottom: var(--color-primary) 2px solid;
 	margin-bottom: 50px;
+	
 }
 .banner__emergente{
 	background-color: var(--color-primary);
@@ -24,10 +25,6 @@ body{
 	text-align: center;	
 }
 
-.banner__publicitario{
-
-
-}
 
 .banner__principal{
 	background: url("img/baner-publicitario.jpg")  no-repeat;
