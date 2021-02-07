@@ -4,6 +4,16 @@ body{
 	font-family: 'Asap', sans-serif;
 }
 
+body::-webkit-scrollbar{
+	width: 9px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: #FF9D00;
+	border-radius: 5px;
+	border-right: 2px solid white;
+
+}
 :root{
 	--background: linear-gradient(90deg, rgba(255,255,255,0.7) 0%, rgba(236,159,4,0.5) 100%);
 	--color-primary:#FF9D00;
@@ -311,10 +321,3 @@ body{
 		flex-basis: 90%;
 	}
 }
-
-.fb-customerchat{
-	animation: desplazamiento;
-	animation-timing-function: ease-out;
-	opacity: 0;
-}
-
